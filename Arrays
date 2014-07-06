@@ -1,0 +1,17 @@
+class Arrays {
+    public static void main(String[] args) {
+        String mostFamous = "Rudolp the Red-Nosed Reindder";
+        char[] mfl = mostFamous.toCharArray();
+        for (int dex = 0; dex < mfl.length; dex++) {
+            char current = mfl[dex];
+            if (current != ' ' ) {
+                System.out.print(current);
+            } else {
+                System.out.print('.');
+            }
+        }
+        System.out.println();
+        int hi = mostFamous.length();
+        System.out.println(hi);
+    }
+}

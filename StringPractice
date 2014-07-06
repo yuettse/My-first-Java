@@ -1,0 +1,15 @@
+class StringPractice {
+    public static void main(String[] args) {
+        String favorite = "piano";
+        String guess = "piano";
+        System.out.println(favorite.equals(guess));
+        
+        String change = favorite.toUpperCase();
+        System.out.println(change);
+        int StringLength = guess.length();
+        System.out.println(StringLength);
+        String test = "a piano";
+        int position = test.indexOf("piano");
+        System.out.println(position);
+    }
+}

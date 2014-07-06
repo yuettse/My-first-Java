@@ -1,0 +1,13 @@
+package java24;
+
+class Ifnot {
+    public static void main(String[] arguments) {
+        int a = 0;
+        int b = 1;
+        b = (a < 0) ? 10 : b;
+        System.out.println(b);
+        String man;
+        man = (b == 1) ? "Mr" : "Not a man";
+        System.out.println(man);
+    }
+}

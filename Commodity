@@ -5,7 +5,7 @@ class Commodity {
         String command = "SELL";
         int balance = 55;
         int quantity = 42;
-        
+        //note
         switch (command) {
             case "BUY":
                 quantity += 5;

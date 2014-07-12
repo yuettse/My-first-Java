@@ -8,3 +8,5 @@ Just How I learn Java
 2014/07/09 Today, I just start my project
 
 2014/07/10 Just got a computer for programming
+
+2014/07/11 trip

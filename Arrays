@@ -1,4 +1,4 @@
-class Arrays {
+class Arrays { 
     public static void main(String[] args) {
         String mostFamous = "Rudolp the Red-Nosed Reindder";
         char[] mfl = mostFamous.toCharArray();
